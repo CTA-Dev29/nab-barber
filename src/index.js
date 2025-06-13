@@ -16,23 +16,20 @@ import TeamMember from './pages/TeamMember';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-  <Nav/>
-  <Routes>
-    <Route path='/' Component={App}></Route>
-    <Route path='/services' Component={Services}></Route>
-    <Route path='/contact' Component={Contact}></Route>
-    <Route path='/about' Component={About}></Route>
-    <Route path='/team' Component={Team}></Route>
-    <Route path='/team/:id' Component={TeamMember}></Route>
-    <Route path='/reservations' Component={Reservations}></Route>
-    <Route path='*' Component={NotFound}></Route>
-  </Routes>
-  <Footer/>
+  <BrowserRouter basename="/nab-barber">
+    <Nav />
+    <Routes>
+      <Route path='/' Component={App}></Route>
+      <Route path='/services' Component={Services}></Route>
+      <Route path='/contact' Component={Contact}></Route>
+      <Route path='/about' Component={About}></Route>
+      <Route path='/team' Component={Team}></Route>
+      <Route path='/team/:id' Component={TeamMember}></Route>
+      <Route path='/reservations' Component={Reservations}></Route>
+      <Route path='*' Component={NotFound}></Route>
+    </Routes>
+    <Footer />
   </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
