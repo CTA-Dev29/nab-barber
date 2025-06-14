@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nab-barber/static/css/main.2a11eeb1.css",
-    "main.js": "/nab-barber/static/js/main.c383bc6f.js",
+    "main.css": "/nab-barber/static/css/main.df017c11.css",
+    "main.js": "/nab-barber/static/js/main.a253b735.js",
     "static/js/453.ac42203b.chunk.js": "/nab-barber/static/js/453.ac42203b.chunk.js",
     "static/media/barbervid.mp4": "/nab-barber/static/media/barbervid.09cb5b5bc1c972214dd5.mp4",
     "static/media/logo.png": "/nab-barber/static/media/logo.ff1152e73834fbb845a4.png",
@@ -9,12 +9,12 @@
     "static/media/revicons.ttf": "/nab-barber/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/nab-barber/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/nab-barber/index.html",
-    "main.2a11eeb1.css.map": "/nab-barber/static/css/main.2a11eeb1.css.map",
-    "main.c383bc6f.js.map": "/nab-barber/static/js/main.c383bc6f.js.map",
+    "main.df017c11.css.map": "/nab-barber/static/css/main.df017c11.css.map",
+    "main.a253b735.js.map": "/nab-barber/static/js/main.a253b735.js.map",
     "453.ac42203b.chunk.js.map": "/nab-barber/static/js/453.ac42203b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a11eeb1.css",
-    "static/js/main.c383bc6f.js"
+    "static/css/main.df017c11.css",
+    "static/js/main.a253b735.js"
   ]
 }
